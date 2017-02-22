@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+    padding: 0;
+    border: 0;
+}
+.test {
+ position: relative;
+}
+.test img {
+max-width: 100%;
+height: auto;
+}
+
+
+
+
+.test .ios .button {
+ 
+ background-color: red;
+ border: none;
+ -webkit-transition-duration: 0.4s;
+ transition-duration: 0.4s;
+ cursor: pointer;
+ padding: 61px 61px;
+ position: absolute;
+ margin-top: -58.3%;
+ margin-left: 31.6%;
+ border-radius: 50%;
+}
+
+
+
+
+
+.test .ios .button img {
+ width: 70%;
+ position: absolute;
+ margin-top: -10%;
+ 
+}
+.test .ios .button:hover {
+ background-color: rgb(66, 115, 182);
+}
