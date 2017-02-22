@@ -3,41 +3,244 @@ body {
     padding: 0;
     border: 0;
 }
-.test {
- position: relative;
-}
 .test img {
-max-width: 100%;
-height: auto;
+ width: 1333px;
 }
 
 
 
-
-.test .ios .button {
- 
- background-color: red;
- border: none;
- -webkit-transition-duration: 0.4s;
- transition-duration: 0.4s;
- cursor: pointer;
- padding: 61px 61px;
+/*ios*/
+.ios button {
  position: absolute;
- margin-top: -58.3%;
- margin-left: 31.6%;
+ background: white;
+ width: 127px;
+ height: 127px;
  border-radius: 50%;
+ margin-top: -780px;
+ margin-left: 420px;
+ border: 2px solid rgb(66, 115, 182);
 }
-
-
-
-
-
-.test .ios .button img {
- width: 70%;
+.ios #ios img {
  position: absolute;
- margin-top: -10%;
- 
+ width: 150px;
+ left: -13px;
+ top: 20px;
 }
-.test .ios .button:hover {
- background-color: rgb(66, 115, 182);
+.ios button:hover {
+ background: rgb(66, 115, 182);
+}
+.ios #ios1 img {
+ visibility: hidden;
+ position: absolute;
+ width: 150px;
+ left: -13px;
+ top: 20px;
+}
+.ios button:hover {
+ background: rgb(66, 115, 182);
+}
+.ios #ios img:hover {
+ display: none;
+}
+.ios button:hover #ios1 img{
+ visibility: visible;
+ z-index: 1;
+}
+
+
+/*android*/
+.android button {
+ position: absolute;
+ background: white;
+ width: 127px;
+ height: 127px;
+ border-radius: 50%;
+ margin-top: -780px;
+ margin-left: 780px;
+ border: 2px solid rgb(66, 115, 182);
+}
+.android #android img {
+ position: absolute;
+ width: 150px;
+ left: -13px;
+ top: 20px;
+}
+.android button:hover {
+ background: rgb(66, 115, 182);
+}
+.android #android1 img {
+ visibility: hidden;
+ position: absolute;
+ width: 150px;
+ left: -13px;
+ top: 20px;
+}
+.android button:hover {
+ background: rgb(66, 115, 182);
+}
+.android #android img:hover {
+ display: none;
+}
+.android button:hover #android1 img{
+ visibility: visible;
+ z-index: 1;
+}
+
+
+/*desctop*/
+.desctop button {
+ position: absolute;
+ background: white;
+ width: 127px;
+ height: 127px;
+ border-radius: 50%;
+ margin-top: -574px;
+ margin-left: 420px;
+ border: 2px solid rgb(66, 115, 182);
+}
+.desctop #desctop img {
+ position: absolute;
+ width: 150px;
+ left: -13px;
+ top: 20px;
+}
+.desctop button:hover {
+ background: rgb(66, 115, 182);
+}
+.desctop #desctop1 img {
+ visibility: hidden;
+ position: absolute;
+ width: 150px;
+ left: -13px;
+ top: 20px;
+}
+.desctop button:hover {
+ background: rgb(66, 115, 182);
+}
+.desctop #desctop img:hover {
+ display: none;
+}
+.desctop button:hover #desctop1 img{
+ visibility: visible;
+ z-index: 1;
+}
+
+
+
+/*web*/
+.web button {
+ position: absolute;
+ background: white;
+ width: 127px;
+ height: 127px;
+ border-radius: 50%;
+ margin-top: -574px;
+ margin-left: 780px;
+ border: 2px solid rgb(66, 115, 182);
+}
+.web #web img {
+ position: absolute;
+ width: 150px;
+ left: -13px;
+ top: 20px;
+}
+.web button:hover {
+ background: rgb(66, 115, 182);
+}
+.web #web1 img {
+ visibility: hidden;
+ position: absolute;
+ width: 150px;
+ left: -13px;
+ top: 20px;
+}
+.web button:hover {
+ background: rgb(66, 115, 182);
+}
+.web #web img:hover {
+ display: none;
+}
+.web button:hover #web1 img{
+ visibility: visible;
+ z-index: 1;
+}
+
+
+
+/*cloud*/
+.cloud button {
+ position: absolute;
+ background: white;
+ width: 127px;
+ height: 127px;
+ border-radius: 50%;
+ margin-top: -370px;
+ margin-left: 420px;
+ border: 2px solid rgb(66, 115, 182);
+}
+.cloud #cloud img {
+ position: absolute;
+ width: 150px;
+ left: -13px;
+ top: 20px;
+}
+.cloud button:hover {
+ background: rgb(66, 115, 182);
+}
+.cloud #cloud1 img {
+ visibility: hidden;
+ position: absolute;
+ width: 150px;
+ left: -13px;
+ top: 20px;
+}
+.cloud button:hover {
+ background: rgb(66, 115, 182);
+}
+.cloud #cloud img:hover {
+ display: none;
+}
+.cloud button:hover #cloud1 img{
+ visibility: visible;
+ z-index: 1;
+}
+
+
+
+/*data*/
+.data button {
+ position: absolute;
+ background: white;
+ width: 127px;
+ height: 127px;
+ border-radius: 50%;
+ margin-top: -370px;
+ margin-left: 780px;
+ border: 2px solid rgb(66, 115, 182);
+}
+.data #data img {
+ position: absolute;
+ width: 150px;
+ left: -13px;
+ top: 20px;
+}
+.data button:hover {
+ background: rgb(66, 115, 182);
+}
+.data #data1 img {
+ visibility: hidden;
+ position: absolute;
+ width: 150px;
+ left: -13px;
+ top: 20px;
+}
+.data button:hover {
+ background: rgb(66, 115, 182);
+}
+.data #data img:hover {
+ display: none;
+}
+.data button:hover #data1 img{
+ visibility: visible;
+ z-index: 1;
 }
